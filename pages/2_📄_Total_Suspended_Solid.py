@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title = "TOTAL SOLID")
 
-st.title("TOTAL SOLID")
+st.title("TOTAL SUSPEND SOLID")
 
 st.header("Prinsip Kerja")
 st.markdown("""Total suspended solid atau padatan tersuspensi total (TSS) adalah residu dari padatan total yang tertahan oleh saringan dengan ukuran partikel maksimal 2μm atau lebih besar dari ukuran partikel koloid. """)
