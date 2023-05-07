@@ -13,5 +13,5 @@ V = st.number_input('Masukkan nilai volume (mL)')
 tombol = st.button('Hitung nilai TS')
 
 if tombol:
-    nilai_TS = ((A-B*1000)/(V/1000))
+    nilai_TS = (A-B) / V * 1000
     st.success(f'Nilai TS adalah {nilai_TS}')
