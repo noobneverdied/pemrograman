@@ -12,5 +12,5 @@ V = st.number_input('Masukkan nilai volume sampel (mL)')
 tombol = st.button('Hitung nilai TSS')
 
 if tombol:
-    nilai_TSS = ((B-A*1000)/(V/1000))
+    nilai_TSS = (B-A) / V * 1000
     st.success(f'Nilai TSS adalah {nilai_TSS}')
