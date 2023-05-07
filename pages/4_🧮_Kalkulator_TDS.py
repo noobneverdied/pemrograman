@@ -5,7 +5,7 @@ st.title("""Perhitungan TDS""")
 st.write('---')
 st.title('TDS')
 
-A = st.number_input('Masukkan berat cawan (g)')
+A = st.number_input('Masukkan berat cawan (mg)')
 B = st.number_input('Masukkan nilai berat sampel pada cawan (g)')
 V = st.number_input('Masukkan volume sampel (mL)')
 
