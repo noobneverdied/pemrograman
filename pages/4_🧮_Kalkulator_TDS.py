@@ -6,7 +6,7 @@ st.write('---')
 st.title('TDS')
 
 A = st.number_input('Masukkan berat cawan (mg)')
-B = st.number_input('Masukkan nilai berat sampel pada cawan (g)')
+B = st.number_input('Masukkan nilai berat sampel pada cawan (mg)')
 V = st.number_input('Masukkan volume sampel (mL)')
 
 tombol = st.button('Hitung nilai TDS')
