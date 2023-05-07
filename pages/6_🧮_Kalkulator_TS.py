@@ -7,7 +7,7 @@ st.title('TS')
 
 
 A = st.number_input('Masukkan nilai berat cawan akhir + residu(mg)')
-B = st.number_input('Masukkan nilai berat cawan (g)')
+B = st.number_input('Masukkan nilai berat cawan (mg)')
 V = st.number_input('Masukkan nilai volume (mL)')
 
 tombol = st.button('Hitung nilai TS')
