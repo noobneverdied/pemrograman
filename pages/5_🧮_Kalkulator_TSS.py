@@ -14,3 +14,7 @@ tombol = st.button('Hitung nilai TSS')
 if tombol:
     nilai_TSS = (B-A) / V * 1000
     st.success(f'Nilai TSS adalah {nilai_TSS}')
+
+st.write('---')
+st.header('Baku Mutu Standar TDS')
+st.markdown("""Baku mutu standar TSS dapat berbeda-beda tergantung pada kebutuhan dan regulasi yang berlaku di suatu daerah atau negara. Namun, umumnya baku mutu standar TSS ditetapkan dalam satuan mg/L atau ppm (bagian per juta) dan berkisar antara 30-50 mg/L untuk air permukaan dan 100-300 mg/L untuk limbah domestik dan industri.""")
