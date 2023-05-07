@@ -6,7 +6,7 @@ st.write('---')
 st.title('TS')
 
 
-A = st.number_input('Masukkan nilai berat cawan akhir + residu(g)')
+A = st.number_input('Masukkan nilai berat cawan akhir + residu(mg)')
 B = st.number_input('Masukkan nilai berat cawan (g)')
 V = st.number_input('Masukkan nilai volume (mL)')
 
